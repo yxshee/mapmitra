@@ -1,0 +1,65 @@
+services:
+  graphhopper:
+    image: israelhikingmap/graphhopper:10.0
+    container_name: graphhopper
+    ports:
+      - "8989:8989"
+    volumes:
+      - ./routing-backend/graphhopper/thapar_map.osm:/data/thapar_map.osm
+      - ./routing-backend/graphhopper/config.yml:/data/config.yml
+    command: >
+      --input /data/thapar_map.osm
+      --config /data/config.yml
+      --host 0.0.0.0
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8989/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+    restart: on-failure
+
+  routing-backend:
+      build:
+        context: ./routing-backend/api
+        dockerfile: api.Dockerfile
+      container_name: routing-backend
+      depends_on:
+        graphhopper:
+          condition: service_healthy
+      environment:
+        GRAPHHOPPER_BASE_URL: http://graphhopper:8989/route
+      ports:
+        - "5000:5000"
+  redis:
+    image: redis/redis-stack:latest
+    container_name: redis
+    ports:
+      - "6379:6379" # Redis port
+      - "8001:8001" # Redis Stack GUI port
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+  
+  quinjet:
+    build:
+      context: ./quinjet
+      dockerfile: quinjet.Dockerfile
+    container_name: quinjet
+    depends_on:
+      redis:
+        condition: service_healthy
+    environment:
+        REDIS_HOST: redis
+        REDIS_PORT: 6379
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/v1/health/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 3s
