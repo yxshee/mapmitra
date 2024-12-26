@@ -19,6 +19,13 @@ MapMitra is an intuitive campus navigation and transportation management system 
 - **Mapping Services**: OpenStreetMap and GIS data
 - **Caching**: Redis (to optimize performance)
 
+<br>
+
+![1](https://github.com/user-attachments/assets/3e56dbf6-8b08-4ec3-8a6b-1b52c3d78319)
+
+
+<br>
+
 ## Installation
 ### Prerequisites
 - Node.js and npm installed
@@ -141,8 +148,6 @@ Their guidance and expertise were invaluable in the successful completion of thi
 
 <br> 
 
-
-![Mapmitra Navigate Effortlessly Poster (3)](https://github.com/user-attachments/assets/71989e07-9ecd-4f05-b85c-b04549791d77)
 
 
 <br>
