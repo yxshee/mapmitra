@@ -141,10 +141,6 @@ Their guidance and expertise were invaluable in the successful completion of thi
 
 <br> 
 
-![Mapmitra Navigate Effortlessly Poster](https://github.com/user-attachments/assets/dd3b0566-96c6-4cdb-b9d2-ce6eda86744e)
-
-
-![Mapmitra Navigate Effortlessly Poster (2)](https://github.com/user-attachments/assets/5fa943f4-4a86-4853-8526-ac4399f74dd8)
 
 ![Mapmitra Navigate Effortlessly Poster (3)](https://github.com/user-attachments/assets/71989e07-9ecd-4f05-b85c-b04549791d77)
 
