@@ -1,3 +1,5 @@
+
+
 # MapMitra: Navigate Effortlessly
 
 ## Overview
@@ -135,3 +137,13 @@ We would like to express our gratitude to our mentors:
 - Dr. Aditi Sharma
 
 Their guidance and expertise were invaluable in the successful completion of this project.
+
+<br>
+
+<br> 
+
+![Mapmitra Navigate Effortlessly Poster](https://github.com/user-attachments/assets/dd3b0566-96c6-4cdb-b9d2-ce6eda86744e)
+
+<br>
+
+<br> 
