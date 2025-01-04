@@ -64,6 +64,9 @@ MapMitra is an intuitive campus navigation and transportation management system 
 - Docker (optional, for containerized deployment).
 - Domain name and SSL certificates (optional, for production).
 
+<img width="1628" alt="image" src="https://github.com/user-attachments/assets/bac2bdf6-b044-4f09-a590-fc8888d32987" />
+
+
 ### Steps
 1. **Configure Environment Variables:**
    Ensure all necessary environment variables (e.g., `MONGO_URI`, `REDIS_URL`, etc.) are configured in the cloud environment or container service.
