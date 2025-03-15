@@ -128,7 +128,6 @@ CMD ["npm", "start"]
 
 ## 📜 License
 ```text
-
 MIT License
 
 Copyright (c) 2024 Yash Dogra 
