@@ -110,8 +110,6 @@ CMD ["npm", "start"]
     <td><a href="https://github.com/AM0312"><img src="https://avatars.githubusercontent.com/AM0312" width="100px"><br/>Ansh Midha</a></td>
     <td><a href="https://github.com/leena153"><img src="https://avatars.githubusercontent.com/leena153" width="100px"><br/>Leena Gupta</a></td>
     <td><a href="https://github.com/madhurgaba2603"><img src="https://avatars.githubusercontent.com/madhurgaba2603" width="100px"><br/>Madhur Gaba</a></td>
-  </tr>
-  <tr align="center">
     <td><a href="https://github.com/shouryade"><img src="https://avatars.githubusercontent.com/shouryade" width="100px"><br/>Shourya De</a></td>
     <td><a href="https://github.com/yxshee"><img src="https://avatars.githubusercontent.com/yxshee" width="100px"><br/>Yash Dogra</a></td>
   </tr>
