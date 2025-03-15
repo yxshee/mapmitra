@@ -103,13 +103,6 @@ CMD ["npm", "start"]
 
 ---
 
-## 📸 UI Showcase
-<div align="center">
-  <img width="45%" src="https://github.com/user-attachments/assets/bac2bdf6-b044-4f09-a590-fc8888d32987" alt="Main Interface">
-  <img width="45%" src="https://placehold.co/600x400?text=Mobile+View" alt="Mobile Preview">
-</div>
-
----
 
 ## 👥 Meet the Team
 <table>
