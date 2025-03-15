@@ -7,6 +7,8 @@
   <img src="https://img.shields.io/badge/Node.js-18.x-green?logo=node.js" alt="Node.js">
 </div>
 
+<br>
+
 ![MapMitra Banner](https://github.com/user-attachments/assets/3e56dbf6-8b08-4ec3-8a6b-1b52c3d78319)
 
 ## 🌟 Overview
